@@ -17,7 +17,7 @@ while True:
                 "text":s[0],
                 "desp":" 链接:"+str(s[1])+"\n简介"+str(s[2])
             }
-            requests.get("https://sc.ftqq.com/SCU96954T628ed5500565032d8e20f10e914058925eb4be254fcde.send",params=params)
+            requests.get("https://sc.ftqq.com/XXX.send",params=params)
             print("推送完成")
             all_datas.append(s)
 
