@@ -26,7 +26,7 @@ while(True):
                     "desp":" 链接:"+str(s["html"])+"\n简介"+str(s["description"])
                 }
                 print("当前推送为"+str(s))
-                requests.get("https://sc.ftqq.com/SCU96954T628ed5500565032d8e20f10e914058925eb4be254fcde.send",params=params,headers=headers)
+                requests.get("https://sc.ftqq.com/xxxx.send",params=params,headers=headers)
                 time.sleep(1)#以防推送太猛
                 print("推送完成")
                 datas.append(s1)
