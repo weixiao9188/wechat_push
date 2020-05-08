@@ -3,7 +3,6 @@
 # Exploit Author: weixiao9188
 # Version: 3.0
 # Tested on: Linux,windows
-#!/bin/bash
 # coding:UTF-8
 import requests
 import json
