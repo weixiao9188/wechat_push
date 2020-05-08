@@ -1,3 +1,10 @@
+# Title: wechat push CVE-2020
+# Date: 2020-5-9
+# Exploit Author: weixiao9188
+# Version: 3.0
+# Tested on: Linux,windows
+#!/bin/bash
+# coding:UTF-8
 import requests
 import json
 import time
